@@ -1,54 +1,71 @@
 <!DOCTYPE html>
-<html>
-     <head>
-          <title>HTML Cheat Sheet</title>
-     </head>
-     <body>
-          <!--heading-->
-          <h1>1st Heading</h1>
-          <h2>2nd Heading</h2>
-          <h3>3rd Heading</h3>
-          <h4>4th Heading</h4>
-          <h5>6th Heading</h5>
-          <h6>7th Heading</h6>
-          <!--paragraph-->
-               <p>Assalamualaikum My name is Abdullah Al Nahin. <strong>I love to travel a lot.</strong> <em>Travel gives me joy and peace of mind.</em> I want to visit all the districts of Bangladesh, and eat the traditional food of those districts.<a href="http://google.com" target="-blank">This is my little dream</a>  </p>
-               <ol>
-               <li>List item 1</li>
-               <li>List item 2</li>
-               <li>List item 3</li>
-               <li>List item 4</li>
-               <li>List item 5</li>
-               </ol>
-               <ul>
-               <li>List item 1</li>
-               <li>List item 2</li>
-               <li>List item 3</li>
-               <li>List item 4</li>
-               <li>List item 5</li>
-               </ul>
-               <!--table-->
-               <table>
-                    <thead>
-                         <tr>
-                              <th>Name</th>
-                              <th>Age</th>
-                              <th>Email</th>
-                         </tr>
-                    </thead>
-                    <tr>
-                         <thead>
-                              <tbody>
-                                   <tr>
-                                        <td>Abdullah Al Nahin </td>
-                                        <td>22</td>
-                                        <td>nahin15-14651@diu.edu.bd</td>
-                                   </tr>
-                                   
-                              </tbody>
-                         </thead>
-                    </tr>
-               </table>
-               <div style="margin-top:500px"></div>
-     </body>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
+<title>My awesome portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./CSS/style.css">
+</head> 
+<body>
+    <header>
+        <div class="Container">
+        <nav class="flex items-center justify-between">
+            <div class="left flex items-center">
+                <div class="branding">
+                    <img src="./images/logo.svg" alt="">
+
+                </div>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">pages</a>
+                <a href="#">blog</a>
+            </div>
+
+            </div>
+            <div class=" right">
+            <button class="btn btn-primary">Contact</button>    
+            </div>
+        </nav>
+        <div class="hero flex items-center justify-between">
+            <div class="left flex-1">
+                <img src="./images/nahin2.png" alt="">
+            </div>
+            <div class="right flex-1">
+                <h6>Abdullah Al Nahin</h6>
+                <h1>I'm a Creative <span>Designer</span> </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <div>
+                    <button class="btn btn-secondary">DOWNLODE CV</button>
+                </div>
+
+
+        </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="contaier flex items-center">
+            <div class="flex-1">
+                <img src="./images/man-2.png" alt="">
+            </div>
+            <div class="flex-1">
+                <h1>About Me</h1>
+                <h3>Hello I Am Abdullah Al Nahin</h3>
+                <p>Assalamualaikum Everywan,My name is Abdullah Al Nahin. I am a student of Daffodil International University department of computer science Engineering . I am 22 years old. I am a web designer. And I love web Designing.I am a skilled web Designer. </p>
+                <div>
+                    <a href="#"><img src="./images/website.svg" alt=""></a>
+                    <a href="#"><img src="./images/facebook.svg" alt=""></a>
+                    <a href="#"><img src="./images/twitter.svg" alt=""></a>
+                    <a href="#"><img src="./images/pintrest.svg" alt=""></a>
+                    <a href="#"><img src="./images/instagram.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
 </html>
